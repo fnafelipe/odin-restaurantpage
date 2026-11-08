@@ -30,5 +30,7 @@ export function loadHomePage() {
   main.appendChild(h2);
   main.appendChild(p);
 
+  main.id = "home"
+
   return main;
 }

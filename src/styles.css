@@ -52,14 +52,17 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
   height: 100%;
   width: 60%;
   background-color: rgba(0, 0, 0, 0.683);
   color: white;
 }
 
-main h1 {
+#home {
+  gap: 50px;
+}
+
+#home h1 {
   font-weight: bold;
   font-size: 100px;
 }
@@ -76,11 +79,21 @@ span#red {
   color: red;
 }
 
-main h2 {
+#home h2 {
   font-size: 50px;
 }
 
-main p {
+#home p {
   font-size: 25px;
   max-width: 60%;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu img {
+  width: 200px;
+  height: 100px;
 }
