@@ -1,9 +1,9 @@
 import "./styles.css";
 
-import { loadHomePage } from "./home.js";
+import { loadMenuPage } from "./menu.js";
 
 const divContent = document.getElementById("content");
 
-const main = loadHomePage();
+const main = loadMenuPage();
 
 divContent.appendChild(main);
