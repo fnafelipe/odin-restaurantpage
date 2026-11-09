@@ -111,3 +111,18 @@ span#red {
 .pizza-info > div {
   max-width: 50%;
 }
+
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px;
+}
+
+#about h2 {
+  font-weight: bold;
+}
+
+#about p {
+  max-width: 80%;
+}
